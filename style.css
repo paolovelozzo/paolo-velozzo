@@ -1,0 +1,94 @@
+@import url(ui_kit/button.css);
+@import url(ui_kit/banner.css);
+body{
+	background-color: #93BEDF;
+	color: rgba(50,50,50,1.0);
+font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3 {
+    color: #14248A;
+ }
+ div {
+      background-color: #DDFDFE;
+      border: 1.5px solid black;
+      border-radius: 4px;
+      margin: 20px auto;
+      box-shadow: 4px 4px 10px black;
+      width: 550px;
+ }
+ #photo_insta {
+ 	width: 200px;
+ 	border-radius: 20px;
+ }
+ #first{
+ 	text-align: center;
+ }
+
+ i{
+ 	font-size: 30px;
+ }
+ #passions {
+ 	text-align: center;
+ }
+
+ #théâtre{
+ 	text-align: center;
+ }
+ #chant{
+ 	text-align: center;
+ }
+ #nourriture{
+ 	text-align: center;
+ }
+ 
+@media (max-width: 960px) {
+  .container {
+    width: 100%;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 100%;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 100%;
+  }
+div {
+	width: 300px;
+}
+.card img {
+display: none;
+}
+
+}
+.container {
+	background: transparent;
+	border: transparent;
+	text-align: center;
+}
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+	padding: 0px;
+	width: 150px;
+}
+.card img {
+  width: 150px;
+  height: 130px;
+}
+.card h3 {
+  flex-grow: 1;
+  justify-content: center;
+}
+.card-contenair {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+/*  height: 300px;*/
+  text-orientation: center;
+}
+
